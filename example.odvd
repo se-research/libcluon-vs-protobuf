@@ -1,0 +1,13 @@
+message testdata.MyTestMessage1 [id = 123] {
+    bool attribute1 [default = true, id = 1];
+    int16 attribute2 [default = -3, id = 2];
+    uint16 attribute3 [default = 4, id = 3];
+    int32 attribute4 [default = -5, id = 4];
+    uint32 attribute5 [default = 6, id = 5];
+    int64 attribute6 [default = -7, id = 6];
+    uint64 attribute7 [default = 8, id = 7];
+    float attribute8 [default = -9.5, id = 8];
+    double attribute9 [default = 10.6, id = 9];
+    string attribute10 [default = "Hello World", id = 10];
+    bytes attribute11 [default = "Hello Galaxy", id = 11];
+}
